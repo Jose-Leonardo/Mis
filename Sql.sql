@@ -1,3 +1,11 @@
+create table users(
+    id uuid,
+    name varchar,
+    email varchar,
+    age int,
+    height float,
+    is_active bool
+);
 insert into users(
 id,
 name,
